@@ -1,0 +1,44 @@
+*{font-family:'Segoe UI',system-ui,sans-serif}
+body{background:#f1f5ff}
+.navbar{background:linear-gradient(90deg,#0d6efd,#7b2ff7);box-shadow:0 4px 20px rgba(0,0,0,.15)}
+.navbar-brand,.navbar .nav-link{color:white!important}
+.navbar .nav-link{font-weight:600;opacity:.9}
+.hero{background:linear-gradient(rgba(13,110,253,.75),rgba(123,47,247,.75)),url('assets/sekolah.jpg');background-size:cover;background-position:center;color:white;padding:40px 0 50px;border-radius:0 0 30px 30px}
+.hero-card{background:rgba(255,255,255,.15);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.3);border-radius:20px;padding:25px 15px}
+.hero-logo{background:white;border-radius:50%;padding:6px;box-shadow:0 8px 20px rgba(0,0,0,.3)}
+.hero a{color:white}
+.badge-hero{background:#ffc107;color:#000;font-weight:800;font-size:11px;padding:6px 12px;border-radius:20px}
+.btn-pinjaman{border-radius:25px;padding:10px 22px}
+.stat-box{background:white;color:#111;border-radius:16px;padding:14px 5px;box-shadow:0 8px 20px rgba(0,0,0,.12)}
+.stat-box h3{margin:0;font-weight:800;color:#0d6efd}
+.section-label{background:#e7f0ff;color:#0d6efd;font-weight:800;font-size:11px;padding:5px 10px;border-radius:20px;letter-spacing:1px}
+.search-box{border-radius:15px;padding:12px 15px;border:2px solid #e0e7ff;box-shadow:0 4px 12px rgba(0,0,0,.05)}
+.btn-filter{border:1px solid #ddd;background:white;border-radius:20px;padding:7px 14px;font-size:13px;font-weight:600}
+.btn-filter.active{background:#0d6efd;color:white;border-color:#0d6efd}
+.cara-box{background:white;border-radius:16px;padding:15px 5px;box-shadow:0 4px 12px rgba(0,0,0,.06);font-size:14px}
+.card{border:none;border-radius:20px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,.08);transition:.2s}
+.card:hover{transform:translateY(-5px);box-shadow:0 15px 30px rgba(0,0,0,.15)}
+.card img{height:200px;width:100%;object-fit:contain;background:#f8f9ff;padding:12px}
+.badge-kategori{position:absolute;top:10px;left:10px;font-size:11px;font-weight:700;padding:5px 10px;border-radius:20px;color:white;z-index:2}
+.cat-Elektronik{background:#0d6efd}.cat-Olahraga{background:#198754}.cat-Musik{background:#d63384}.cat-Belajar{background:#fd7e14}
+.stok-badge{background:#e7f7ee;color:#198754;font-weight:700;font-size:12px;padding:4px 10px;border-radius:20px}
+.btn-pinjam{border-radius:20px;padding:6px 16px;font-weight:700}
+.btn-edit{border-radius:20px;padding:6px 14px;font-weight:700}
+.form-card{border-radius:22px;border:none;box-shadow:0 15px 35px rgba(0,0,0,.12);overflow:hidden}
+.form-header{background:linear-gradient(90deg,#0d6efd,#7b2ff7);color:white;padding:25px 15px}
+.form-header .badge{border-radius:20px;padding:7px 14px;font-size:11px}
+.step{background:rgba(255,255,255,.2);color:white;font-size:11px;font-weight:700;padding:6px 12px;border-radius:20px}
+.step.active{background:white;color:#0d6efd}
+.form-title{font-weight:800;font-size:16px;border-left:4px solid #0d6efd;padding-left:10px;margin-bottom:5px}
+.form-label{font-weight:700;font-size:13px;margin-bottom:4px}
+.input-group-text{background:#eef2ff;border-radius:12px 0 0 12px;border:1px solid #dee2e6;font-size:15px}
+.input-group .form-control, .input-group .form-select{border-radius:0 12px 12px 0!important}
+.form-control, .form-select{border-radius:12px;padding:11px}
+.form-control:focus, .form-select:focus{border-color:#7b2ff7;box-shadow:0 0 0 3px rgba(123,47,247,.15)}
+.denda-box{background:linear-gradient(90deg,#fff3cd,#ffe69c);border:1px dashed #ffc107;border-radius:16px;padding:15px}
+.btn-simpan{background:linear-gradient(90deg,#0d6efd,#7b2ff7)!important;border:none;border-radius:15px;padding:14px;font-size:16px;box-shadow:0 8px 20px rgba(13,110,253,.35)}
+.btn-simpan:active{transform:scale(.98)}
+table thead th{background:#0d6efd!important;color:white!important}
+footer{background:linear-gradient(180deg,#0d6efd,#5b21b6);border-radius:30px 30px 0 0}
+footer a{color:white}
+.footer-logo{background:white;border-radius:50%;padding:4px}
